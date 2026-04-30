@@ -1,0 +1,40 @@
+{
+  "name": "esbuild-plugin-lingui-react-email-macro",
+  "version": "1.0.0",
+  "description": "An esbuild plugin to transform Lingui macros in React email.",
+  "author": "Norbert Elter <norbert.elter0@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/itsyoboieltr/esbuild-plugin-lingui-react-email-macro#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsyoboieltr/esbuild-plugin-lingui-react-email-macro.git"
+  },
+  "bugs": "https://github.com/itsyoboieltr/esbuild-plugin-lingui-react-email-macro/issues",
+  "keywords": [
+    "esbuild-plugin",
+    "lingui",
+    "react-email"
+  ],
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "check": "biome check ."
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "@types/babel__core": "7.20.5",
+    "@types/bun": "latest",
+    "@biomejs/biome": "2.4.13"
+  },
+  "dependencies": {
+    "@babel/core": "7.29.0",
+    "@lingui/babel-plugin-lingui-macro": "6.0.1",
+    "@lingui/cli": "6.0.1"
+  }
+}
