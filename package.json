@@ -1,6 +1,6 @@
 {
   "name": "esbuild-plugin-lingui-react-email-macro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An esbuild plugin to transform Lingui macros in React email.",
   "author": "Norbert Elter <norbert.elter0@gmail.com>",
   "license": "MIT",
